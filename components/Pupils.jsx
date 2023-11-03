@@ -139,7 +139,7 @@ const PupilsAddClient = () => {
                     Telefon raqami
                 </label>
                 <input
-                    className="max-w-[900px] w-full py-3 px-2 border outline-none"
+                    className="w-full py-3 px-2 border outline-none"
                     onChange={(e) => setTelephoneRaqami(e.target.value)}
                     value={telephoneRaqami}
                     type="text"
